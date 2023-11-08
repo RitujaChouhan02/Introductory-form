@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introductory Form</title>
+</head>
+
+<body>
+    <h2>This is a form made using HTML.</h2>
+    <form action="backend.php">
+        <!-- Alt replacement in mac is option. -->
+        <label for="name">Name:</label>
+        <!-- For me jo likha hota h vo hi id me likhna hota h. -->
+        <div>
+            <input type="Name" name="myname" id="name">
+        </div>
+        <br>
+        <div>
+            Date: <input type="date" name="Date" id="">
+        </div>
+        <br>
+        <div>
+            Email: <input type="email" name="email" id="">
+        </div>
+        <br>
+        <div>
+            Are you Married? : <input type="checkbox" name="mycheckbox" id="">
+        </div>
+        <br>
+        <div>
+            Fav Color : <input type="color" name="color" id="">
+        </div>
+        <br>
+        <br>
+        <div>
+            Gender: Male<input type="radio" name="bro" id=""> Female<input type="radio" name="bro" id="">
+            Other<input type="radio" name="otherbro" id="">
+        </div>
+        <br>
+        <div>
+            Write about yourself!: <textarea></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="Employment">Employment type</label>
+            <select name="myemployment" id="Employment">
+                <option value="emp">Employed</option>
+                <option value="Unemp">Unemployed</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit now">
+            <input type="reset" value="Reset now">
+        </div>
+    </form>
+</body>
+
+</html>
